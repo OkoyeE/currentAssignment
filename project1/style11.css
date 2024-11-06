@@ -1,0 +1,15 @@
+/* styles.css */
+.fade-in-element {
+    opacity: 0; /* Start with full transparency */
+    animation: fade-in 1s ease-in-out forwards; /* Apply the animation */
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0; /* Element is fully transparent at the start of animation */
+    }
+    to {
+      opacity: 1; /* Element is fully opaque at the end of animation */
+    }
+  }
+  

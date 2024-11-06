@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Font family and colors */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1E90FF;
+  }
+  
+  /* Borders and backgrounds */
+  header {
+    background-color: #1E90FF;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ddd;
+  }
+  
+  section {
+    padding: 40px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1E90FF;
+    color: white;
+  }
+  
+  /* Grid layout */
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .section-grid {
+      grid-template-columns: 1fr;
+    }
+  }

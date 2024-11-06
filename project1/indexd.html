@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styled.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <title>Ephraim Okoye's Personal Website</title>
+</head>
+<style> 
+  .mymove{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  </style>
+<body>
+  <header>
+    <h1>Welcome to Okoye's Personal Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img class="mymove" src="me.png" alt="Image 1">
+    <p><p> <Strong> Purpose:</Strong>This is a resume to help me get a job in web development.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p> <h2>Experience</h2>
+        <div>
+            <p> CVS - Health Department Detroit, Michigan - 1995-1998</p>
+        </div>
+        <div>
+            <p> ITSD City Of Detroit, Michigan 1998 - 2005</p>
+            <p> Water Department, City Of Detroit, Michigan 2005 - 2014</p>
+            <p> Amazon LLC Warehouse 2020 - Present</p>
+        </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>I am currently residing at 9700 Regent Circle, Taylor, Mi </p>
+    <p> I can also be reached by email:</p>
+    <p> theokoyes@gmail.com, theokoyes@live.com and theokoyes@comcast.com</p>
+    <p> Also by phone: 313.652.5072</p>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2023 Ephraim Okoye. All rights reserved.</p>
+  </footer>
+ 
+</body>
+</html>
